@@ -9217,7 +9217,8 @@ ul {
 }
 
 .project-details__details-name a {
-  color: var(--notech-black);
+  /* color: var(--notech-black); */
+  color: #ffffff;
 }
 
 .project-details__content-one {

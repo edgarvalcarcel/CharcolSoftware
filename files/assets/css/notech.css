@@ -9697,6 +9697,7 @@ ul {
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 20px;
+  color: var(--notech-base);
 }
 
 .service-details__text-1 {

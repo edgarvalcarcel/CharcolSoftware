@@ -47,7 +47,7 @@ class PHPMailer {
    * Email priority (1 = High, 3 = Normal, 5 = low).
    * @var int
    */
-  public $Priority          = 3;
+  public $Priority          = 1;
 
   /**
    * Sets the CharSet of the message.
@@ -78,13 +78,13 @@ class PHPMailer {
    * Sets the From email address for the message.
    * @var string
    */
-  public $From              = 'root@localhost';
+  public $From              = 'needhelp@charcolsoftware.com';
 
   /**
    * Sets the From name of the message.
    * @var string
    */
-  public $FromName          = 'Root User';
+  public $FromName          = 'Charcol Software page';
 
   /**
    * Sets the Sender email (Return-Path) of the message.  If not empty,
@@ -167,7 +167,7 @@ class PHPMailer {
    * by SERVER_NAME is used or 'localhost.localdomain'.
    * @var string
    */
-  public $Hostname          = '';
+  public $Hostname          = 'mail.charcolsoftware.com';
 
   /**
    * Sets the message ID to be used in the Message-Id header.
@@ -188,7 +188,7 @@ class PHPMailer {
    * Hosts will be tried in order.
    * @var string
    */
-  public $Host          = 'localhost';
+  public $Host          = 'mail.charcolsoftware.com';
 
   /**
    * Sets the default SMTP server port.
@@ -219,13 +219,13 @@ class PHPMailer {
    * Sets SMTP username.
    * @var string
    */
-  public $Username      = '';
+  public $Username      = 'needhelp@charcolsoftware.com';
 
   /**
    * Sets SMTP password.
    * @var string
    */
-  public $Password      = '';
+  public $Password      = 'N33dh3lp*';
 
   /**
    * Sets the SMTP server timeout in seconds.
